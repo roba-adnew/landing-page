@@ -25,10 +25,27 @@ body {
     padding: 30px;
 }
 
-.body-content 
-{
+.body-content {
     display: flex;
     flex-flow: row nowrap;
+    justify-content: center;
+    gap: 50px;  
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    text-align: center;
+    font-size: 18px;
+    color: #1F2937;
+}
+
+/* Formatting for the images in the body */
+.face, .bus, .park, .old {
+    border-radius: 10px;
+    border: 3px solid #3882F6;
+
 }
 
 button { 
@@ -93,7 +110,7 @@ h1 {
 }
 
 img {
-    width: 40%;
+    width: 200px;
     object-fit: contain;
 }
 
@@ -102,7 +119,7 @@ img {
     height: auto;
 }
 
-p {
+.header-text {
     font-size: 18px;
     color: #E5E7EB; 
 }
